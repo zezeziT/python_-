@@ -30,6 +30,7 @@ def fib3(n):
     # 把结果返回出去  如果没有 print（fib3（n）就是None
 
 
-fib(10)
-print(fib2(10))
-print(fib3(10))
+if __name__ == '__main__':
+    fib(10)
+    print(fib2(10))
+    print(fib3(10))
